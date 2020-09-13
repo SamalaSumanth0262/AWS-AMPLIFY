@@ -1,6 +1,6 @@
 {
 	"auth": {
-		"reactamplified64f67e4f": {
+		"marketplace37da1c9d": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [],

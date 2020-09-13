@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "reactamplified64f67e4f_identitypool_64f67e4f",
+    "identityPoolName": "marketplace37da1c9d_identitypool_37da1c9d",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "reacta64f67e4f",
-    "userPoolName": "reactamplified64f67e4f_userpool_64f67e4f",
+    "resourceNameTruncated": "market37da1c9d",
+    "userPoolName": "marketplace37da1c9d_userpool_37da1c9d",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "reacta64f67e4f_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "market37da1c9d_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "64f67e4f",
-    "resourceName": "reactamplified64f67e4f",
+    "sharedId": "37da1c9d",
+    "resourceName": "marketplace37da1c9d",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -45,15 +45,10 @@
             "Arn"
         ]
     },
-    "useDefault": "defaultSocial",
-    "hostedUI": true,
+    "useDefault": "default",
     "usernameAttributes": [
-        "email, phone_number"
+        "email"
     ],
-    "hostedUIDomainName": "reactamplified64f67e4f-64f67e4f",
-    "authProvidersUserPool": [],
-    "hostedUIProviderMeta": "[]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
     "userPoolGroupList": [],
     "dependsOn": []
 }
